@@ -1,0 +1,23 @@
+/* Nevbar.module.css */
+.navbar {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgb(255, 255, 255);
+  height: 80px;
+  width:100%;
+}
+
+.space{
+  margin: 5px;
+}
+
+.buttonSpacing {
+  margin-left: 30px; /* You can adjust the margin as needed */
+}
+
+
+
+
+
+

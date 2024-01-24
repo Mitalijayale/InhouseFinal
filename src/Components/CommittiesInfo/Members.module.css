@@ -1,0 +1,29 @@
+/* Members.module.css */
+
+.container {
+  width: 50%;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 15px;
+  margin-bottom: 20px; /* Adjust the value as needed */
+  margin-right: -30px; /* Apply a negative margin to reduce the space between containers */
+}
+
+/* Members.module.css */
+
+.profileImage {
+  width: 80px; /* Adjust the size as needed */
+  height: 80px;
+}
+
+/* Members.module.css */
+/* Members.module.css */
+
+.customProfileCol {
+  margin-bottom: 10px; /* Adjust the value as needed to decrease space */
+  flex: auto;  /*auto to get it on 2 lines */
+}
+
+
+
+
