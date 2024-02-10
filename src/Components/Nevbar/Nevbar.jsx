@@ -1,4 +1,5 @@
 import style from "./Nevbar.module.css";
+import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ImageComponent from "../Images/ImageComponent";
 
@@ -6,17 +7,17 @@ function Nevbar() {
   return (
     <>
       <div className={style.navbar}>
-        <nav class="navbar bg-white">
-          <div class="container-fluid">
+        <nav className="navbar bg-white">
+          <div className="container-fluid">
             <a className="navbar-brand" href="#">
               <ImageComponent className="Logo-img"></ImageComponent>
             </a>
-            <form class={style.space}>
-              <a href="/public-view" className="text-decoration-none">
+            <form className={style.space}>
+              <Link to="/Committies" className="text-decoration-none">
                 Public View
-              </a>
+              </Link>
               <button
-                class={`btn btn-primary ${style.buttonSpacing}`}
+                className={`btn btn-primary ${style.buttonSpacing}`}
                 type="submit"
               >
                 Need Help?

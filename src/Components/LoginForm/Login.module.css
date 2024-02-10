@@ -10,59 +10,39 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height:35vh; /* Adjust the height as needed */
-  padding: 0vh;
+  margin-bottom: 20px;
 }
-
-
-
-
-
-/* Add additional styles if needed */
-
-/*
-.container{
-  border: 100px solid rgb(22, 20, 20);
-  border-radius: 5px;
-  margin-top: 50%;
+.formGroup{
+  width: 100%;
 }
-*/
 
 .textType {
-  font-size: 25px; /* Adjust the font size for h2 */
-  color: #090a0a; /* Change the color for h2 */
+  color: #090a0a; 
   font-weight:bolder;
+  padding-top: 15px;
+  font-size: 20px;
 }
 
 p {
-  font-size: 14px; /* Adjust the font size for p */
-  color: #060706; /* Change the color for p */
+  font-size: 14px; 
+  color: #060706; 
 }
 
 .username {
-  font-size: 13px; /* Adjust the font size for input with id 'username' */
-  color: #070606; /* Change the color for input with id 'username' */
+  font-size: 13px; 
+  color: #070606;
 }
 
 .password {
-  font-size: 13px; /* Adjust the font size for input with id 'password' */
-  color: #080606; /* Change the color for input with id 'password' */
+  font-size: 13px; 
+  color: #080606; 
 }
 
 .forgetPass {
-  font-size: 14px; /* Adjust the font size for forgetPass link */
-  color: #007bff; /* Change the color for forgetPass link */
+  font-size: 14px; 
+  color: #007bff; 
 }
 
 .btn-primary {
-  font-size: 16px; /* Adjust the font size for primary button */
-  background-color: #007bff; /* Change the background color for primary button */
-  border-color: #007bff; /* Change the border color for primary button */
-  color: #fff; /* Change the text color for primary button */
-}
-
-.btn-primary:hover {
-  background-color: #0056b3; /* Change the background color on hover */
-  border-color: #0056b3; /* Change the border color on hover */
+  font-size: 16px; 
 }

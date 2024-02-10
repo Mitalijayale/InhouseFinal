@@ -12,21 +12,10 @@ body {
   align-items: center;
   justify-content: center;
   height:20vh; /* Adjust the height as needed */
+  padding: 10px;
+  margin: 35px;
 }
 
-
-
-
-
-/* Add additional styles if needed */
-
-/*
-.container{
-  border: 100px solid rgb(22, 20, 20);
-  border-radius: 5px;
-  margin-top: 50%;
-}
-*/
 
 .textType {
   font-size: 25px; /* Adjust the font size for h2 */

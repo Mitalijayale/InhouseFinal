@@ -14,8 +14,8 @@ function Reset() {
             <input type="text" className="form-control" id="username" />
           </div>
 
-          <div class="d-grid gap-2">
-            <button class="btn btn-primary" type="button">
+          <div className="d-grid gap-2">
+            <button className="btn btn-primary" type="button">
               Reset Password
             </button>
           </div>
