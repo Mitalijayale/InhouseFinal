@@ -1,11 +1,9 @@
-// Members.jsx
-// Members.jsx
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import style from "./Members.module.css";
-import member1Image from "./member1.png"; // Replace with the actual file name and extension
+import member1Image from "./member1.png";
 import member2Image from "./member2.png";
-import member3Image from "./member3.png"; // Replace with the actual file name and extension
+import member3Image from "./member3.png";
 import member4Image from "./member4.png";
 
 function Members() {

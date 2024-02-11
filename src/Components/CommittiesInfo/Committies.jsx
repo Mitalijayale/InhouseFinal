@@ -5,7 +5,6 @@ import Members from "./Members";
 import NevbarCom from "../Nevbar/NevbarCom";
 
 function Committies() {
-  // Assuming you have an array of academic years
   const academicYears = [
     "2022-2023",
     "2023-2024",
@@ -70,72 +69,3 @@ function Committies() {
 }
 
 export default Committies;
-
-/*
-import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import style from "./Committies.module.css";
-
-function Committies() {
-  // Assuming you have an array of academic years
-  const academicYears = [
-    "2022-2023",
-    "2023-2024",
-    "2024-2025"
-  ];
-
-  const commities = [
-    "PDA",
-    "Seminar",
-    "Interview"
-  ];
-
-  return (
-    <>
-      <div class={style.position}>
-        <div class={style.row}>
-          <div class={style.container}>
-            <div className={style.row}>
-              <label className={style.label}>AcademicYear</label>
-              <div className={style.dropdown}>
-                <select
-                  className="form-select"
-                  aria-label="Default select example"
-                >
-                  {academicYears.map((year) => (
-                    <option key={year} value={year}>
-                      {year}
-                    </option>
-                  ))}
-                </select>
-              </div>
-            </div>
-          </div>
-          <div class={`${style.container} ${style.fullWidthContainer}`}>
-            <div className={style.row}>
-              <label className={style.label}>Commities</label>
-              <div className={style.dropdown}>
-                <select
-                  className="form-select"
-                  aria-label="Default select example"
-                >
-                  {commities.map((commitie) => (
-                    <option key={commitie} value={commitie}>
-                      {commitie}
-                    </option>
-                  ))}
-                </select>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </>
-  );
-}
-
-export default Committies;
-
-
-*/

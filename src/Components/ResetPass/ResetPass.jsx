@@ -1,8 +1,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import style from "./ResetPass.module.css";
+import style from "./Resetpass.module.css";
 
-function Reset() {
+function Resetpass() {
   return (
     <div className={style.container}>
       <h3 className={style.textType}>PICT COMMITTEES</h3>
@@ -25,4 +25,4 @@ function Reset() {
   );
 }
 
-export default Reset;
+export default Resetpass;

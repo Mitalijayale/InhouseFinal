@@ -1,4 +1,3 @@
-// ImageComponent.jsx
 import React from "react";
 import myImage from "./logo.png"; // Import the image file
 import style from "./ImageComponent.module.css";

@@ -1,4 +1,3 @@
-/* Members.module.css */
 
 .container {
   width: 50%;
@@ -9,15 +8,10 @@
   margin-right: -30px; /* Apply a negative margin to reduce the space between containers */
 }
 
-/* Members.module.css */
-
 .profileImage {
   width: 80px; /* Adjust the size as needed */
   height: 80px;
 }
-
-/* Members.module.css */
-/* Members.module.css */
 
 .customProfileCol {
   margin-bottom: 10px; /* Adjust the value as needed to decrease space */

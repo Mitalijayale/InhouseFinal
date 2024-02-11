@@ -20,7 +20,7 @@ function Login() {
           </div>
           <div className="mb-3">
             {/* Use Link to navigate to the ResetPass page */}
-            <Link to="/ResetPass" className={style.forgetPass}>
+            <Link to="/Resetpass" className={style.forgetPass}>
               Forgot Password?
             </Link>
           </div>
